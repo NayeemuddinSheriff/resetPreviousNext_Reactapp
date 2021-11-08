@@ -26,7 +26,7 @@ export default function ResetPrevNext(props) {
     function changeData(data) {
         for (var i = (data - 1); i < data; i++) {
             // console.log(props.array[i].Book + ' ' + props.array[i].Author)
-            var result = 'Book:' + props.array[i].Book + ' Author: ' + props.array[i].Author
+            var result = 'Book:' + props.array[i].Book + '|| Author: ' + props.array[i].Author
         }
         document.getElementById('result').innerHTML = result
 
